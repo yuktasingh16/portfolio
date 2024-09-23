@@ -1,0 +1,49 @@
+.delete-button {
+    background-color: #1424ce;
+    color:aliceblue;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.wishListCard{
+    position: relative;
+    background-color: var(--color-grey-primary);
+    margin: 2rem;
+    flex: 1 0 25rem;
+    border: 2px solid gray;
+    border-radius: 4%;
+    max-width: 30rem;
+    max-height: 50rem;
+    transition: 0.2s;
+}
+
+.wishListCard:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+    border: 2px solid black;
+}
+
+.productImage{
+    margin: 4rem 2rem 2rem 2rem;
+    object-fit: cover;
+    width: 85%;
+    height: auto;
+}
+
+.productName{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.display{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productPrice{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+/* Styles for the categories bar */
+.categories-bar ul {
+    margin-top: 5%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.categories-bar li {
+    margin: 3rem 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.categories-bar li.active {
+    background-color: #007bff;
+    color: white;
+}
+
+  /* Hover effect */
+.categories-bar li:hover {
+    background-color: #f0f0f0;
+    color: #333;
+    transform: translateY(-2px);
+}
